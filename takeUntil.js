@@ -1,4 +1,4 @@
-const takeUntil = function(array, callback) {
+const takeUntil = function (array, callback) {
   let result = [];
   for (arr of array) {
     if (callback(arr)) {
@@ -11,7 +11,7 @@ const takeUntil = function(array, callback) {
 };
 
 
-const eqArrays = function(actualArr, expectedArr) {
+const eqArrays = function (actualArr, expectedArr) {
   if (actualArr.length !== expectedArr.length) {
     return false;
   }
@@ -24,7 +24,7 @@ const eqArrays = function(actualArr, expectedArr) {
 };
 
 
-const assertArraysEqual = function(actual, expected) {
+const assertArraysEqual = function (actual, expected) {
   if (eqArrays(actual, expected)) {
     console.log(`💓💓💓Assertion Passed: ${actual} === ${expected}`);
   } else {
