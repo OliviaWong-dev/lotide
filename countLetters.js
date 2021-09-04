@@ -24,3 +24,5 @@ assertEqual(countLetters("hello").e, 1);
 assertEqual(countLetters("hello").l, 2);
 assertEqual(countLetters("hello").o, 1);
 
+module.exports = countLetters;
+

@@ -80,3 +80,5 @@ eqObjects(cd, cd2); // => false
 
 assertEqual(eqObjects(cd, dc), true);
 assertEqual(eqObjects(cd, cd2), false);
+
+module.exports = eqObjects;
