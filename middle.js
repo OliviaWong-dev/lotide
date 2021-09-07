@@ -1,4 +1,4 @@
-const middle = function(array) {
+const middle = function (array) {
   let result;
   if (array.length > 2 && array.length % 2 !== 0) {
     const indexofMiddle = (array.length - 1) / 2;
@@ -9,6 +9,5 @@ const middle = function(array) {
   }
   return result;
 };
-
 
 module.exports = middle;
