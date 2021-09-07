@@ -1,5 +1,3 @@
-const assertEqual = require("./assertEqual");
-
 const countLetters = function (word) {
   let count = {};
   for (letter of word) {
