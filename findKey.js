@@ -1,3 +1,4 @@
+const findKey = function (object, callback) {
   let result = "";
   let keys = Object.keys(object);
   if (keys.length === 0) {
